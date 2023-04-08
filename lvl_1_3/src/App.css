@@ -1,0 +1,10 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.todo-container {
+  display: flex;
+  gap: 10px;
+  background-color: #fff;
+}
