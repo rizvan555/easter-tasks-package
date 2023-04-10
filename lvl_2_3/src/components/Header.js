@@ -25,8 +25,14 @@ const HeaderStyled = styled.header`
   .nav-container {
     display: flex;
     gap: 5vw;
-    font-size: 15px;
+    font-size: 20px;
     list-style-type: none;
+    li {
+      a {
+        text-decoration: none;
+        color: #202336;
+      }
+    }
   }
   .button-container {
     display: flex;
@@ -75,10 +81,18 @@ const Header = () => {
         </div>
         <div className="right-box">
           <ul className="nav-container">
-            <li>Home</li>
-            <li>Destinations</li>
-            <li>About</li>
-            <li>Partner</li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/destinations">Destinations</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/partner">Partner</Link>
+            </li>
           </ul>
           <div className="button-container">
             <Button text="Login" backgroundColor="#fff" color="#FB8F1D" />
