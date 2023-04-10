@@ -5,7 +5,7 @@ const Destinations = () => {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 0 55px;
     margin: 10vh auto 5vh auto;
   `;
   const MainStyled = styled.main`
