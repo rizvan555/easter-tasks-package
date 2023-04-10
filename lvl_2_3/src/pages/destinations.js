@@ -14,8 +14,8 @@ const Destinations = () => {
     gap: 20px;
     margin-bottom: 10vh;
     img {
-      width: 20vw;
-      border-radius: 5px;
+      width: 23vw;
+      border-radius: 6px;
     }
   `;
 
